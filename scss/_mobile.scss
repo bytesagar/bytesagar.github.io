@@ -1,0 +1,141 @@
+@include mediaSm {
+  .sidebar {
+    padding: 30px;
+
+    i {
+      font-size: 2rem !important;
+    }
+  }
+  //homepage
+  #home {
+    padding: 10px !important;
+    width: 90% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh !important;
+
+    .info {
+      margin-top: 20px;
+      .info-wrapper {
+        min-width: 130%;
+      }
+
+      .hello {
+        width: 150px !important;
+        height: 35px !important;
+      }
+      .lg-title {
+        font-size: 30px;
+      }
+      .sm-title {
+        font-size: 18px;
+      }
+    }
+
+    .user-image img {
+      max-width: 180px !important;
+      max-height: 180px;
+      border: 5px solid lighten($secondary-color, 20%);
+    }
+  }
+}
+
+//   section#aboutme {
+//     min-width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     padding: 5px !important;
+//     margin: 0px !important;
+//     img {
+//       display: none;
+//       height: 200px;
+//       width: 200px;
+//     }
+
+//     .my-info {
+//       min-width: 100%;
+
+//       .social-icons {
+//         min-width: 100%;
+//         .icon {
+//           height: 30px;
+//           width: 30px;
+
+//           a {
+//             font-size: 18px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+@include mediaMd {
+  .menu-nav {
+    width: 50% !important;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh !important;
+
+    .info {
+      padding: 5px !important;
+      width: 65% !important;
+      order: 1;
+    }
+
+    .user-image img {
+      height: 300px !important;
+      width: 300px !important;
+    }
+    .user-image {
+      border: 10px solid $secondary-color;
+    }
+  }
+}
+
+//   section#aboutme {
+//     min-width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     padding: 20px;
+//     .image {
+//       min-width: 100%;
+//     }
+//     img {
+//       height: 400px;
+//       width: 400px;
+//     }
+
+//     .my-info {
+//       min-width: 100%;
+//     }
+//   }
+// }
+
+// @include mediaLg {
+//   section#aboutme {
+//     min-width: 100%;
+//     .image {
+//       min-width: 50%;
+//     }
+//     img {
+//       height: 300px;
+//       width: 300px;
+//     }
+
+//     .my-info {
+//       min-width: 50%;
+
+//       .social-icons {
+//         min-width: 100%;
+//       }
+//     }
+//   }
+// }
