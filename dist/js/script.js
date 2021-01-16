@@ -33,11 +33,11 @@ const updateProfileUi = (data) => {
         <p class="profile__bio">${data.bio}</p>
         <div class="profile__follow-info">
           <div class="profile__followers">
-            <h3>40</h3>
+            <h3>34</h3>
             <p>Followers</p>
           </div>
           <div class="profile__following">
-            <h3>36</h3>
+            <h3>151</h3>
             <p>Following</p>
           </div>
         </div>
