@@ -17,22 +17,7 @@
     margin-bottom: 25px;
   }
   
-  @media (min-width: 480px) {
-    .container {
-      padding: 15px;
-    }
-  }
   
-  @media (min-width: 768px) {
-    .container {
-      padding-top: 50px;
-      flex-direction: row;
-    }
-  
-    .repo-page {
-      margin-top: 0px;
-    }
-  }
   .repo__card {
     list-style-type: none;
     margin-bottom: 25px;
@@ -59,12 +44,7 @@
   }
   
   
-  
-  @media (min-width: 768px) {
-    .repo__card {
-      margin-bottom: 40px;
-    }
-  }
+
   
 .profile {
     width: 100%;
@@ -125,12 +105,32 @@
     color: #24f519;
     font-size: 20px; }
   
-  @media (min-width: 768px) {
-    .profile {
-      width: 35%;
-      margin-right: 30px;
-      /* position: fixed; */ }
-    .profile__online-presence {
-      margin-top: 50px;
-      margin-bottom: 30px; } }
+    @media (min-width: 480px) {
+      .container {
+        padding: 15px;
+      }
+    }
+    
+    @media (min-width: 768px) {
+      .container {
+        padding-top: 50px;
+        flex-direction: row;
+      }
+    
+      .repo-page {
+        margin-top: 0px;
+      }
+      .repo__card {
+        margin-bottom: 40px;
+      }
+
+      .profile {
+        width: 35%;
+        margin-right: 30px;
+        /* position: fixed; */ }
+      .profile__online-presence {
+        margin-top: 50px;
+        margin-bottom: 30px; } 
+    }
+ 
   

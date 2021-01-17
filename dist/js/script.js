@@ -51,6 +51,9 @@ function fetchRepos() {
     .then((results) => {
       console.log(results);
       results.map((data) => {
+        if(data.description === null) {
+          data.description = 'No description available'
+        }
         updateMyRepos(data);
       });
     });
